@@ -1,6 +1,11 @@
 # vue-ontop
 An extremely light-weight and flexible library for adding content on top of content; overlay, modal, dialog, lightbox, popup, slidein, etc.
 
+## Alpha
+WARNING! vue-ontop is currently in Alpha - a lot is still needed for it to be usable conveniently in many scenarios.
+
+Albeit it's a little bit rough and unclear at the moment, I very much accept contributions - as long as they adhere to the vision and principles.
+
 ## Vision
 Provide base structure for any type of content dynamically shown on top of page content;
 * Modals
