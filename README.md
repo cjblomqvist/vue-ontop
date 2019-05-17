@@ -6,6 +6,14 @@ WARNING! vue-ontop is currently in Alpha - a lot is still needed for it to be us
 
 Albeit it's a little bit rough and unclear at the moment, I very much accept contributions - as long as they adhere to the vision and principles.
 
+## Todo
+* Add package.json - and secure vue-ontop as name in npm
+* Do everything required to add vue-ontop to awesome-vue and request it to be added. See https://github.com/vuejs/awesome-vue/blob/master/CONTRIBUTING.md for details.
+* Finalize planned features
+* Add more ready-made headers/styles for different tyopes of ontop-content (plain overlay, modal, dialog, lightbox, popup, slidein, etc.)
+* Add demo page using GitHub pages?
+* Add proper build and distribution pipeline (through local build)
+
 ## Vision
 Provide base structure for any type of content dynamically shown on top of page content;
 * Modals
@@ -29,7 +37,7 @@ Provide base structure for any type of content dynamically shown on top of page 
 - [x] Container and popovers (instances) decoupled (enables container to be placed in root while each popover can be placed where it belong, to be able to better follow the [SRP](https://en.wikipedia.org/wiki/Single_responsibility_principle))
 - [x] Container slots for global frame
 - [x] Everything over-rideable at popover level
-- [ ] Esc => Close
+- [x] Esc => Close
 - [x] Click on overlay background => Close
 - [ ] Global and simple yet fully encompassing JS API (methods) for handling; events, methods; open, close, ...
   - [ ] Access to API via scoped slots
