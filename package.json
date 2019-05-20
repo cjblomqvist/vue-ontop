@@ -1,0 +1,30 @@
+{
+  "name": "vue-ontop",
+  "version": "0.1.0",
+  "description": "An extremely light-weight and flexible library for adding content on top of content; overlay, modal, dialog, lightbox, popup, slidein, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjblomqvist/vue-ontop.git"
+  },
+  "keywords": [
+    "vue",
+    "popover",
+    "modal",
+    "dialog",
+    "slidein",
+    "lightbox",
+    "overlay",
+    "light-weight",
+    "flexible"
+  ],
+  "author": "Carl-Johan Blomqvist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjblomqvist/vue-ontop/issues"
+  },
+  "homepage": "https://github.com/cjblomqvist/vue-ontop#readme"
+}
