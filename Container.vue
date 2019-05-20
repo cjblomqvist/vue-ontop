@@ -59,7 +59,9 @@
         this.popovers[name] = instance;
 
         if (instance.force || (instance.default && !this.current)) {
-          this.open(name);
+          this.$nextTick(() => {
+            this.open(name);
+          });
         }
       },
       removePopover(name) {
